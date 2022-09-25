@@ -10,4 +10,4 @@ This project was initiated to refactor code for the Horiseon website. The goal o
 
 ## Screenshot
 
-![Horiseon website screenshot](/assets/images/screencapture-davisj33ry-github-io-horiseon-code-refactor)
+[Horiseon website screenshot](/assets/images/screencapture-davisj33ry-github-io-horiseon-code-refactor)
