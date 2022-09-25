@@ -1,13 +1,25 @@
+/* global styles */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* element styles */
 body {
   background-color: #d9dcd6;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* class header styles */
 .header {
   padding: 20px;
   display: flex;
@@ -36,24 +48,6 @@ li {
   float: right;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
-
-#hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .float-left {
   float: left;
   margin-right: 25px;
@@ -64,47 +58,21 @@ p {
   margin-left: 25px;
 }
 
+/* class hero stles */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* content element styles */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
-}
-
-aside {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-/* consolidated classes into a single benefits class with children */
-.benefits {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefits h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefits img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
 }
 
 /* consolidated classes to a single article class */
@@ -124,6 +92,35 @@ aside {
 .articles h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+/* aside element styles */
+aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* consolidated classes into a single benefits class with children */
+.benefits {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefits h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .footer {
